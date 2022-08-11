@@ -155,8 +155,8 @@
 const evenNumberFunction = function(){
 let inputnum = document.getElementById("num1").value;
 if (inputnum%2 == 0){
-    alert("it is an even number");
+    alert(`${inputnum} is an even number`);
 } else {
-    alert(`${inputnum}  it is not an even number`);
+    alert(`${inputnum} is not an even number`);
 }
 }
